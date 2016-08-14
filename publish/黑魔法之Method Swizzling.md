@@ -71,17 +71,27 @@ NSLog(@"methodSizzled pointer :%p", class_getMethodImplementation([MethodSwizzli
 
 上面代码中前面一半为未替换前的关于个方法信息以及调用后的结果，而后面一半则为执行`Method Swizzling`之后个方法信息以及调用后的结果，其后台输出如下：
 
-> 2016-08-11 00:05:36.931 OCCodes[10831:971136] Before swizzle method
-2016-08-11 00:05:36.932 OCCodes[10831:971136] methodOrigin pointer :0x104ad46c0
-2016-08-11 00:05:36.932 OCCodes[10831:971136] methodSizzled pointer :0x104ad4700
-2016-08-11 00:05:36.932 OCCodes[10831:971136] -[MethodSwizzlingDemo methodOrigin]
-2016-08-11 00:05:36.933 OCCodes[10831:971136] -[MethodSwizzlingDemo methodSizzled]
-2016-08-11 00:05:36.933 OCCodes[10831:971136] ------------------------------------------------------------------------------------
-2016-08-11 00:05:36.934 OCCodes[10831:971136] After swizzle method
-2016-08-11 00:05:36.935 OCCodes[10831:971136] methodOrigin pointer :0x104ad4700
-2016-08-11 00:05:36.935 OCCodes[10831:971136] methodSizzled pointer :0x104ad46c0
-2016-08-11 00:05:36.935 OCCodes[10831:971136] -[MethodSwizzlingDemo methodSizzled]
-2016-08-11 00:05:36.935 OCCodes[10831:971136] -[MethodSwizzlingDemo methodOrigin]
+> Before swizzle method
+
+> methodOrigin pointer :0x104ad46c0
+
+> methodSizzled pointer :0x104ad4700
+
+> -[MethodSwizzlingDemo methodOrigin]
+
+> -[MethodSwizzlingDemo methodSizzled]
+
+> ------------------------------------------------------------------------------------
+
+> After swizzle method
+ 
+> methodOrigin pointer :0x104ad4700
+
+> methodSizzled pointer :0x104ad46c0
+
+> -[MethodSwizzlingDemo methodSizzled]
+
+> -[MethodSwizzlingDemo methodOrigin]
 
 可以看出其中在为调用前，`methodOrigin`的指针为`0x104ad46c0`，而`methodSizzled`的指针为`0x104ad4700`,而在`Method Swizzling`之后这两个方法的指针调换了，从而实现了函数的“移形换影大法”。从后面的函数调用也可以看得出来。从而也证明了上面的图。
 
