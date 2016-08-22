@@ -69,3 +69,5 @@ BOOL res9 = [NSObject class] == class_getSuperclass(object_getClass([NSObject cl
 > 上面老是说因为所以让我想起以前正面题目的`∴`,`∵`还有同理可证什么的，看来我还是一个爱学习的好孩子嘛(偷笑)。
 
 > PS:具体代码可以从[Github](https://github.com/NSCookies)上获取。
+
+> 如有问题或纠正, 可以联系[@叫什么都不如叫Pluto-Y](http://weibo.com/plutoy0504)或在[Github](https://github.com/NSCookies)

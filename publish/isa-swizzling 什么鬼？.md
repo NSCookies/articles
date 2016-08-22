@@ -88,3 +88,5 @@ printInfo function pointer:0x10fe03a30
 最后就酱紫了，退下吧，朕要翻牌子了~哇哈哈
 
 > PS:具体代码可以从[Github](https://github.com/NSCookies)上获取。
+
+> 如有问题或纠正, 可以联系[@叫什么都不如叫Pluto-Y](http://weibo.com/plutoy0504)或在[Github](https://github.com/NSCookies)

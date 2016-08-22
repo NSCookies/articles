@@ -102,3 +102,5 @@ NSLog(@"methodSizzled pointer :%p", class_getMethodImplementation([MethodSwizzli
 虽然说`Method Swizzling`是一个非常强大的黑魔法，但是还是建议能不用的情况下就少用，毕竟如果在多人都在替换之后，整体的函数指针都会特别乱，特别是在用第三方库的情况下，很多库都替换来替换去，最终导致程序经常出现莫名其妙的错误，但是自己分析情况下又很难判断出是否替换过，寻找起来不是特别的方便。
 
 > PS:具体代码可以从[Github](https://github.com/NSCookies)上获取。
+
+> 如有问题或纠正, 可以联系[@叫什么都不如叫Pluto-Y](http://weibo.com/plutoy0504)或在[Github](https://github.com/NSCookies)

@@ -211,3 +211,5 @@ print("person.name:\(person.name)")
 可以看到这个例子中用字符串的字面量来创建了`NSCPerson`对象。我特别喜欢`Swift`这个特性， 因为这个特性可以给我们带来许多的方便，例如我们可以用在创建`NSURL`时通过字符串来创建，我们可以通过一个ID去创建一个对象，创建的同时可以通过本地缓存或者数据缓存来获得等等等，非常有用。小伙伴要好好利用这个特性。
 
 > PS:具体代码可以从[Github](https://github.com/NSCookies)上获取。
+
+> 如有问题或纠正, 可以联系[@叫什么都不如叫Pluto-Y](http://weibo.com/plutoy0504)或在[Github](https://github.com/NSCookies)

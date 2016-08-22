@@ -83,3 +83,5 @@ let pointFormatStr8 = NSString(format: "tagged point :%p", date4)
 ```
 
 > PS:具体代码可以从[Github](https://github.com/NSCookies)上获取。
+
+> 如有问题或纠正, 可以联系[@叫什么都不如叫Pluto-Y](http://weibo.com/plutoy0504)或在[Github](https://github.com/NSCookies)
