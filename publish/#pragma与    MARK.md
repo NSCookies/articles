@@ -101,7 +101,7 @@ func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSInde
 
 好吧，其实有两种手段，一种就是网上有人整理了一个网站[Which Clang Warning Is Generating This Message?](http://fuckingclangwarnings.com/)，里面包含了许多警告抑制的字符串，大家可以参考一下。另外一个方案呢，就是通过Xcode来查找，具体步骤如下图:
 
-![find-warning-string.png](../images/find-warnings-string.png)
+![find-warning-string.png](../images/find-warning-string.png)
 
 先选择`Report Navigator`，然后选择最后一个日志，选择所有信息，然后去日志中查看你需要的警告信息，并且在哪里警告它都会罗列出来。通过这种手段，我们就可以装逼添加`#pragma clang diagnostic ignored`的信息了。
 
