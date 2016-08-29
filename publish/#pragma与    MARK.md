@@ -131,3 +131,7 @@ NSString *unsedString;
 ![swift-TODO-FIXME.png](../images/swift-TODO-FIXME.png)
 
 具体内容就到此为止吧，深入的地方就等你们告诉我了哟。感谢大家的阅读，退下吧，朕要洗白白去了。
+
+> PS:具体代码可以从[Github](https://github.com/NSCookies)上获取。
+
+> 如有问题或纠正, 可以联系[@叫什么都不如叫Pluto-Y](http://weibo.com/plutoy0504)或在[Github](https://github.com/NSCookies)
